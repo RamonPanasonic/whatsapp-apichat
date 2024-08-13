@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<odoo>
+<data noupdate="1">
+    <record id="whatsapp_template_apichat_demo" model="whatsapp.account">
+        <field name="name">Apichat Demo</field>
+        <field name="account_type">apichat</field>
+        <field name="app_uid">demo</field>
+        <field name="app_secret">demo</field>
+        <field name="account_uid">demo</field>
+        <field name="phone_uid">demo</field>
+        <field name="token">demo</field>
+        <field name="notify_user_ids" eval="[Command.link(ref('base.user_admin'))]" />
+    </record>
+    
+    <record id="whatsapp_template_open_message_partner" model="whatsapp.template">
+        <field name="name">Partner Open Message</field>
+        <field name="template_name">parter_open_message</field>
+        <field name="lang_code">en</field>
+        <field name="template_type">utility</field>
+        <field name="phone_field">mobile</field>
+        <field name="model_id" ref="base.model_res_partner" />
+        <field name="body"></field>
+        <field name="active" eval="True" />
+        <field name="is_open_message" eval="True" />
+        <field name="status">approved</field>
+        <field name="wa_account_id" ref="whatsapp_apichat.whatsapp_template_apichat_demo" />
+    </record>
+</data>
+</odoo>

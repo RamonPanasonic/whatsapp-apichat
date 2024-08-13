@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="whatsapp_composer_view_form" model="ir.ui.view">
+        <field name="name">whatsapp.composer.apichat</field>
+        <field name="model">whatsapp.composer</field>
+        <field name="inherit_id" ref="whatsapp.whatsapp_composer_view_form" />
+        <field name="arch" type="xml">
+            <field name="wa_template_id" position="before">
+                <field name="wa_account_id" widget="selection" required="True" />
+                <field name="is_open_message" invisible="True" />
+            </field>
+            <field name="phone" position="after">
+                <label for="open_message_text" colspan="2"
+                    invisible="is_open_message != True" />
+                <field name="open_message_text" nolabel="1" colspan="2"
+                    invisible="is_open_message != True" />
+                <field name="binary_filename" force_save="1" readonly="1" invisible="1" />
+                <field name="binary_attachment" filename="binary_filename"
+                    invisible="is_open_message != True" />
+            </field>
+        </field>
+    </record>
+</odoo>

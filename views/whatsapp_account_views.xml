@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="whatsapp_account_view_form" model="ir.ui.view">
+        <field name="name">whatsapp.account.apichat</field>
+        <field name="model">whatsapp.account</field>
+        <field name="inherit_id" ref="whatsapp.whatsapp_account_view_form" />
+        <field name="arch" type="xml">
+            <xpath expr="//widget[@name='web_ribbon']" position="after">
+                <widget name="web_ribbon" title="Connected" bg_color="text-bg-success"
+                    invisible="active == False or phone_connected == False or account_type != 'apichat'" />
+                <widget name="web_ribbon" title="Disconnected" bg_color="text-bg-danger"
+                    invisible="active == False or phone_connected != False or account_type != 'apichat'" />
+            </xpath>
+            <xpath expr="//field[@name='name']/.." position="after">
+                <div class="mb-3">
+                    <label for="account_type" class="me-2" />
+                    <field name="account_type" />
+                </div>
+            </xpath>
+            <xpath expr="//field[@name='app_uid']/.." position="after">
+                <setting invisible="account_type != 'apichat'">
+                    <field name="phone_connected" options="{'always_reload': True}" />
+                </setting>
+            </xpath>
+            <xpath expr="//button[@name='button_test_connection']" position="after">
+                <br />
+                <button name="button_close_apichat_connection" type="object" string="Close Whatsapp Web Session"
+                    icon="oi-arrow-left" class="btn-link p-1"
+                    invisible="account_type != 'apichat'" />
+            </xpath>
+            <xpath expr="//field[@name='phone_uid']/.." position="attributes">
+                <attribute name="invisible">account_type != 'meta'</attribute>
+            </xpath>
+            <xpath expr="//field[@name='app_uid']/.." position="attributes">
+                <attribute name="invisible">account_type != 'meta'</attribute>
+            </xpath>
+            <xpath expr="//field[@name='app_secret']/.." position="attributes">
+                <attribute name="invisible">account_type != 'meta'</attribute>
+            </xpath>
+            <xpath expr="//button[@name='button_sync_whatsapp_account_templates']" position="attributes">
+                <attribute name="invisible">account_type != 'meta'</attribute>
+            </xpath>
+            <xpath expr="//field[@name='webhook_verify_token']/.." position="attributes">
+                <attribute name="invisible">account_type != 'meta'</attribute>
+            </xpath>
+        </field>
+    </record>
+</odoo>

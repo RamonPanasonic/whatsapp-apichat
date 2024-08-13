@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="view_scan_qr_form" model="ir.ui.view">
+        <field name="name">whatsapp.account.scan.qr.form</field>
+        <field name="model">whatsapp.account.scan.qr</field>
+        <field name="arch" type="xml">
+            <form js_class="whatsapp_account_scan_qr">
+                <h3 class='text-info'>You need to scan the QR code from the device on which WhatsApp is registered.</h3>
+                <field name="account_id" invisible="True" />
+                <field name="qr_code_img" widget="image" readonly="True" options="{'size': (250, 250)}" />
+                <footer>
+                    <button string="Close" class="oe_link" special="cancel" />
+                </footer>
+            </form>
+        </field>
+    </record>
+
+</odoo>

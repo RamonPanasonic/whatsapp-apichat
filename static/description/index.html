@@ -1,0 +1,663 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odoo App 3 Index</title>
+    <link rel="stylesheet"
+          href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+          crossorigin="anonymous">
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet">-->
+    <!--de odoo-->
+    <link rel="preload"
+          href="https://apps.odoocdn.com/web/static/lib/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0" as="font"
+          crossorigin=""/>
+    <!--<link type="text/css" rel="stylesheet" href="https://apps.odoo.com/web/assets/15192707-6ba53b5/1/web.assets_frontend.min.css" data-asset-bundle="web.assets_frontend" data-asset-version="6ba53b5"/>-->
+    <link type="text/css" rel="stylesheet" href="/web/assets/5c3edeb-d1c0f5e/1/web.assets_common.min.css"
+          data-asset-bundle="web.assets_common" data-asset-version="d1c0f5e"/>
+    <style>
+        b {
+            font-weight: 600;
+        }
+
+        .oe_slogan {
+            color: #333333;
+            font-family: "Lato", "Open Sans", "Helvetica", Sans;
+            margin-top: 32px;
+            margin-bottom: 32px;
+            text-align: center;
+        }
+
+        h2.oe_slogan {
+            font-size: 40px;
+            font-weight: 300;
+        }
+
+        h3.oe_slogan {
+            font-size: 26px;
+            font-weight: 300;
+            filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+            opacity: 0.5;
+        }
+
+        h4.oe_slogan {
+            font-size: 24px;
+            font-weight: 300;
+        }
+
+        h4.oe_slogan:before, h4.oe_slogan:after {
+            margin: 0 20px;
+            content: "";
+            display: inline-block;
+            width: 100px;
+            height: 0px;
+            border-top: solid 1px;
+            vertical-align: middle;
+            filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=30);
+            opacity: 0.3;
+        }
+
+        h5.oe_slogan {
+            font-weight: 300;
+        }
+    </style>
+</head>
+<body>
+<section class="container"
+         style="font-family: 'Lato', 'Open Sans', 'Helvetica', Sans; font-weight: normal; max-width: 1100px; width:100% !important; color: #575757; margin: auto;">
+    <div class="row mx-0">
+        <div class="col-sm-12" style="color:#343a40; border-bottom:1px solid #e4e4e4; padding: 0px;">
+            <div class="row mx-0">
+                <div class="col-sm-6 text-right pr-4" style="margin-top: 22px;">
+                    <img src="acruxlab_50x180.png" title="AcruxLab-logo" alt="AcruxLab-logo">
+                </div>
+                <div class="col-sm-6 pt-0" style="padding: 16px;">
+                    <p class="mb-0" style="padding: 25px 0 0 16px; font-size: 18px; line-height: 1.3em; color:#646464">
+                        <b>Always the first</b> to launch new features<br/>
+                        <!--<span class="text-success">Live <b>Send and Receive</b>. <b>Multi</b> Whatsapp numbers per company.</span><br/>-->
+                        <span class="small"><i>info@acruxlab.com / Whatsapp: +56 67 221 7777</i></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="loempia_tabs" style="width:100% !important; max-width:100% !important;">
+            <ul class="nav nav-tabs justify-content-center" id="myTab" role="tablist" data-tabs="tabs"
+                style="background-color: #F8F9FA;">
+                <li class="nav-item">
+                    <a href="#english" class="nav-link active" id="english-tab" data-toggle="tab" data-target="#english"
+                       role="tab">
+                        English <img src="gb.png" title="English" alt="English" style="height: 20px; width: 30px;">
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#espanol" class="nav-link" id="espanol-tab" data-toggle="tab" data-target="#espanol"
+                       role="tab">
+                        Espa&ntilde;ol <img src="es.png" title="Spanish" alt="Spanish" style="height: 20px; width: 30px;">
+                    </a>
+                </li>
+            </ul>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="english" role="tabpanel" aria-labelledby="english-tab">
+                    <!-- INGLES -->
+                    <div class="col-md-12 col-sm-12 mb-2 text-center">
+                        <h2 class="oe_slogan mt-5 mb-4" style="color:#875A7B; font-size: 24px;">
+                            <span style="font-weight: 300; font-size: 20px;">Use</span> <b>Odoo Enterprise's Whatsapp</b><br/>
+                            <span style="font-weight: 300; font-size: 20px;">in a</span> <b>simple and flexible</b> way</h2>
+                        <p>
+                            Subscribe to your plan at <b>apichat.io</b> and connect using Whatsapp Web<br/>
+                            apichat.io offers a <b>Free Account</b> for 3 days
+                        </p>
+                    </div>
+
+                    <div class="col-md-12 col-sm-12 mt-0 mb-0" style="padding:8px; font-size:14px; line-height: 1.5em;">
+                        <div class="container alert alert-success mb-0" style="padding: 16px; display: flow-root;">
+                            <div class="col-md-12 col-sm-12 alert mb-0" style="padding:16px 8px 32px 16px; background-color: aliceblue;">
+                                <!--<p class="text-center mb-1" style="font-size: 16px;">
+                                    Whatsapp through <b>www.apichat.io</b><br/>
+                                </p>-->
+                                <p class="text-center mt-3" style="font-size:24px; color:#875A7B;">
+                                    Simplified WhatsApp
+                                </p>
+                                <p class="text-center mt-3 mb-5" style="font-size:18px; color:#875A7B;">
+                                    Scan QR code and you're done!
+                                </p>
+                                <div class="container">
+                                    <div class="row mx-0">
+                                        <div class="col-lg-6 col-md-5 col-sm-12 text-center">
+                                            <a href="https://www.youtube.com/watch?v=HMCo4pLz6gs" target="_blank">
+                                                <img class="shadow pb-0" src="Portada_450x250.jpg" alt="Connect apichat.io in 2 minutes" title="Connect apichat.io in 2 minutes" style="max-width:100%; border: 1px solid darkgray;">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-6 col-md-7 col-sm-12" style="line-height: 20px;">
+                                            <div class="mb-3">
+                                                <span style="font-size:18px; color:#875A7B;">Start chatting in 2 minutes!</span><br/>
+                                                - Activate the free account at apichat.io<br/>
+                                                - Enter the credentials in Odoo.<br/>
+                                                - Scan the QR code... that's it!
+                                            </div>
+                                            <div class="mb-3">
+                                                <span style="font-size:18px; color:#875A7B;">Keep WhatsApp on your phone</span><br/>
+                                                If you connect directly to META, you won't be able to have that WhatsApp number on
+                                                your phone
+                                                and you won't be able to use WhatsApp Web either.
+                                            </div>
+                                            <div class="mb-3">
+                                                <span style="font-size:18px; color:#875A7B;">No need for Templates</span><br/>
+                                                - No need to send a template to start a chat or to answer after 24 hrs.<br/>
+                                                - Your monthly cost will be fixed and known, not dependent on the number of templates you send.
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-12 text-center mt-5">
+                                            <p style="font-size:18px; color:#875A7B;"><b>WITHOUT</b> our module</p>
+                                            <p>Only numbers and without a profile picture.<br/>
+                                            Impossible to remember or search for a chat to continue writing.</p>
+                                            <img class="img img-responsive shadow mt-2 mb-1" style="max-width: 100%;"
+                                                 src="chat_5.png" alt="WITHOUT our module"
+                                                 title="WITHOUT our module">
+                                        </div>
+                                        <div class="col-md-6 col-sm-12 text-center mt-5">
+                                            <p style="font-size:18px; color:#875A7B;"><b>WITH</b> our module</p>
+                                            <p>Shows name, number, and profile picture.<br/>
+                                            Now you can search for a chat to continue writing.</p>
+                                            <img class="img img-responsive shadow mt-2 mb-1" style="max-width: 100%;"
+                                                 src="chat_6.png" alt="WITH our module"
+                                                 title="WITH our module">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- + + + + + + + Video + + + + + + + -->
+                    <!--<div class="col-12 text-center mt-4 pt-4">
+                        <h4 class="oe_slogan mb-4" style="color:#875A7B"><b>Video</b></h4>
+                        <div class="row mx-0">
+                            <div class="col-sm-12 text-center mt-2 pb-3">
+                                <h5 class="mt-0  mb-1">- Using Templates -</h5>
+                                <p>Now it's very simple!</p>
+                                <div style="max-width: 560px; margin: auto;">
+                                    <a href="https://www.youtube.com/watch?v=HMCo4pLz6gs" target="_blank">
+                                        <img class="shadow pb-0"
+                                             src="Portada_450x250.jpg" alt="Odoo WhatsApp Video" title="Odoo WhatsApp Video"
+                                             style="max-width:100%; border: 1px solid darkgray;">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->
+
+                    <!-- + + + + + + + Facebook problem + + + + + + + -->
+                    <div class="col-md-12 col-sm-12 text-center mt-4 pt-4">
+                        <h4 class="oe_slogan mt-3 mb-0" style="color:#875A7B"><b>Issues</b></h4>
+                        <p style="color: #875A7B; font-size: 24px;">when using META (Facebook)</p>
+                    </div>
+                    <div class="col-md-12 col-sm-12 d-flex justify-content-center">
+                        <ul class="text-left">
+                            <li>You won't be able to have WhatsApp on your phone or open WhatsApp Web.</li>
+                            <li>You need to create an APP in META, which is complicated and can cost you $100.</li>
+                            <li>You have to maintain a template system in META and synchronize it with Odoo (more complications).<br/>
+                                They can charge you $20 for each template.
+                            </li>
+                            <li>You need to send a template to initiate a chat (extra cost).</li>
+                            <li>You need to send a template to continue a chat after 24 hours (extra cost).</li>
+                        </ul>
+                    </div>
+
+                    <!-- + + + + + + + FAQ + + + + + + + -->
+                    <div class="col-md-12 col-sm-12 text-center mt-4 pt-4">
+                        <h4 class="oe_slogan mt-0" style="color:#875A7B"><b>FAQ</b></h4>
+                    </div>
+                    <div class="container">
+                        <div id="accordion">
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="card-link collapsed" data-toggle="collapse" href="#faq1" aria-expanded="false">
+                                        <i class="fa fa-plus" style="font-size:20px;"></i>
+                                        <span class="my-1 pr-5 pl-1">
+                                            <b>When is it convenient to use META (Facebook)?</b>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div id="faq1" class="collapse" data-parent="#accordion">
+                                    <div class="card-body ml-4 font-italic" style="font-size:15px;">
+                                        <div>1) If your company is big or medium-sized and you have the resources to maintain a specialist.</div>
+                                        <div>2) If your company is small and you are willing to invest time in learning on your own and adhering to strict rules.</div>
+                                        <div>3) If you need to do a marketing campaign to WhatsApp numbers that have not messaged you before.</div>
+                                        <div>4) If your marketing will be intensive, about 2,000 messages per day.</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="card-link collapsed" data-toggle="collapse" href="#faq2" aria-expanded="false">
+                                        <i class="fa fa-plus" style="font-size:20px;"></i>
+                                        <span class="my-1 pr-5 pl-1">
+                                            <b>Considerations for a Marketing Campaign</b>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div id="faq2" class="collapse" data-parent="#accordion">
+                                    <div class="card-body ml-4 font-italic" style="font-size:15px;">
+                                        <div>1) If you use META, it will be secure; it's META's business. On the downside, if a number doesn't exist on WhatsApp it's challenging to know.</div>
+                                        <div>2) If you use apichat.io, it is recommended only to send to WhatsApp numbers with which you have conversed before.</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="card-link collapsed" data-toggle="collapse" href="#faq3" aria-expanded="false">
+                                        <i class="fa fa-plus" style="font-size:20px;"></i>
+                                        <span class="my-1 pr-5 pl-1">
+                                            <b>Can my number be blocked if I use apichat.io?</b>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div id="faq3" class="collapse" data-parent="#accordion">
+                                    <div class="card-body ml-4 font-italic" style="font-size:15px;">
+                                        <div>Yes, it is possible, but it will likely be for not taking some minimum measures.</div>
+                                        <div>Recommendations:</div>
+                                        <div>1) It is very safe if you only respond to incoming messages, i.e., the customer writes to you first.<br/>
+                                            If there is already an incoming and outgoing message in a chat, you can resume that chat whenever you want; days or weeks can pass without a problem.
+                                        </div>
+                                        <div>2) If you are going to create a new chat, make sure the number exists.<br/>
+                                            If you send many messages a day to numbers that do not exist, WhatsApp may block you.
+                                        </div>
+                                        <div>3) If you are going to create a new chat, make sure to send a message that is welcomed by your customer.<br/>
+                                            If you are going to charge a debt, the customer may mark it as SPAM, and if you accumulate several SPAM messages in 1 day, WhatsApp may block you.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="card-link collapsed" data-toggle="collapse" href="#faq4" aria-expanded="false">
+                                        <i class="fa fa-plus" style="font-size:20px;"></i>
+                                        <span class="my-1 pr-5 pl-1">
+                                            <b>Tips for using a new WhatsApp number</b>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div id="faq4" class="collapse" data-parent="#accordion">
+                                    <div class="card-body ml-4 font-italic" style="font-size:15px;">
+                                        <div class="mb-1">* If you have been using your new WhatsApp normally for a few days, you don't need to consider these tips.</div>
+                                        <div>1) If the customer writes to you first, and you're only going to respond, you can be very calm.</div>
+                                        <div>2) If you are going to write to a customer for the first time with your new number, WhatsApp expects you to do so to Contacts you have saved in your phone.<br/>
+                                            So, in first few days, start a chat only with customers you have saved in your phone.
+                                        </div>
+                                        <div>3) If you didn't follow usage advices and WhatsApp has blocked you, follow steps in "What shall i do if WhatsApp blocks me?" section.</div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="card-link collapsed" data-toggle="collapse" href="#faq5" aria-expanded="false">
+                                        <i class="fa fa-plus" style="font-size:20px;"></i>
+                                        <span class="my-1 pr-5 pl-1">
+                                            <b>What shall i do if WhatsApp blocks me?</b>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div id="faq5" class="collapse" data-parent="#accordion">
+                                    <div class="card-body ml-4 font-italic" style="font-size:15px;">
+                                        <div>1) If WhatsApp has blocked you, you can request them to activate your account.<br/>
+                                            Don't mention that you use any application or apichat.io; just say that you are not doing marketing.
+                                        </div>
+                                        <div>2) If you were doing marketing, it means you were not following the minimum recommendations.<br/>
+                                            In this case, it is better to use META (Facebook).
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="card-link collapsed" data-toggle="collapse" href="#faq6"
+                                       aria-expanded="false">
+                                        <i class="fa fa-plus" style="font-size:20px;"></i>
+                                        <span class="my-1 pr-5 pl-1">
+                                            <b>It is compatible with Chatroom?</b>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div id="faq6" class="collapse" data-parent="#accordion">
+                                    <div class="card-body ml-4 font-italic" style="font-size:15px;">
+                                        <div>You can use it in parallel.</div>
+                                        <div>It does not affect Chatroom and does not add extra features to Chatroom.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- + + + + + + + License + + + + + + +
+                    <div class="col-md-12 col-sm-12 mt-1 mb-0" style="padding:8px; font-size:18px; line-height: initial;">
+                        <div class="container alert mb-0" style="padding: 16px; display: flow-root; border: 1px solid #808080;">
+                            <div class="pull-left">
+                                <b>License: OPL-1</b> (Odoo Proprietary License v1.0)<br/><br/>
+                                <span style="font-size: 90%;">By using or downloading this module, you agree not to make modifications that
+                                    affect sending messages through www.apichat.io or avoiding contract
+                                    a Plan with Apichat.
+                                </span>
+                            </div>
+                        </div>
+                    </div>-->
+
+                </div>
+                <div class="tab-pane fade" id="espanol" role="tabpanel" aria-labelledby="espanol-tab">
+                    <!-- ESPA&Ntilde;OL -->
+                    <div class="col-md-12 col-sm-12 mb-2 text-center">
+                        <!--<h2 class="oe_slogan mb-2" style="color:#875A7B">Usa <b>Whatsapp de Odoo</b><br/>de una forma<b>simple y flexible</b></h2>-->
+                        <h2 class="oe_slogan mt-5 mb-4" style="color:#875A7B; font-size: 24px;">
+                            <span style="font-weight: 300; font-size: 20px;">Usa</span> <b>Whatsapp de Odoo
+                            Enterprise</b><br/>
+                            <span style="font-weight: 300; font-size: 20px;">de una forma</span> <b>simple y
+                            flexible</b></h2>
+                        <p>
+                            Contrata tu Plan en <b>apichat.io</b> y conecta usando Whatsapp Web<br/>
+                            apichat.io ofrece <b>Cuenta gratis</b> por 3 d&iacute;as
+                        </p>
+                    </div>
+
+                    <div class="col-md-12 col-sm-12 mt-0 mb-0" style="padding:8px; font-size:14px; line-height: 1.5em;">
+                        <div class="container alert alert-success mb-0" style="padding: 16px; display: flow-root;">
+                            <div class="col-md-12 col-sm-12 alert mb-0"
+                                 style="padding:16px 8px 32px 16px; background-color: aliceblue;">
+                                <!--<p class="text-center mb-1" style="font-size: 16px;">
+                                    Whatsapp mediante <b>www.apichat.io</b><br/>
+                                </p>-->
+                                <p class="text-center mt-3" style="font-size:24px; color:#875A7B;">
+                                    Whatsapp hecho simple
+                                </p>
+                                <p class="text-center mt-3 mb-5" style="font-size:18px; color:#875A7B;">
+                                    Escanea QR y listo!
+                                </p>
+                                <div class="container">
+                                    <div class="row mx-0">
+                                        <div class="col-lg-6 col-md-5 col-sm-12 text-center">
+                                            <a href="https://www.youtube.com/watch?v=HMCo4pLz6gs" target="_blank">
+                                                <img class="shadow pb-0"
+                                                     src="Portada_450x250.jpg" alt="Conectar apichat.io en 2 minutos" title="Conectar apichat.ioi en 2 minutos"
+                                                     style="max-width:100%; border: 1px solid darkgray;">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-6 col-md-7 col-sm-12" style="line-height: 20px;">
+                                            <div class="mb-3">
+                                                <span style="font-size:18px; color:#875A7B;">Empieza a chatear en 2 minutos!</span><br/>
+                                                - Activa la cuenta gratis en apichat.io<br/>
+                                                - Ingresa las credenciales en Odoo.<br/>
+                                                - Escanea QR... es todo!
+                                            </div>
+                                            <div class="mb-3">
+                                                <span style="font-size:18px; color:#875A7B;">Mant&eacute;n Whatsapp en el celular</span><br/>
+                                                Si te conectas directo a META, no podr&aacute;s tener ese n&uacute;mero de Whatsapp en
+                                                el celular
+                                                y tampoco podr&aacute;s usar Whatsapp Web.
+                                            </div>
+                                            <div class="mb-3">
+                                                <span style="font-size:18px; color:#875A7B;">No necesitas Plantillas</span><br/>
+                                                - No es necesario enviar plantilla para iniciar chat o despu&eacute;s de 24
+                                                hrs.<br/>
+                                                - Tu costo mensual ser&aacute; fijo y conocido, no depende de la cantidad de
+                                                plantillas que env&iacute;es.
+                                            </div>
+                                        </div>
+                                        <div class="col-md-6 col-sm-12 text-center mt-5">
+                                            <p style="font-size:18px; color:#875A7B;"><b>SIN</b> nuestro m&oacute;dulo</p>
+                                            <p>Solo n&uacute;meros y sin foto de perf&iacute;l.<br/>
+                                            Imposible recordar o buscar un chat para seguir escribiendo.</p>
+                                            <img class="img img-responsive shadow mt-2 mb-1" style="max-width: 100%;"
+                                                 src="chat_5.png" alt="SIN nuestro m&oacute;dulo"
+                                                 title="SIN nuestro m&oacute;dulo">
+                                        </div>
+                                        <div class="col-md-6 col-sm-12 text-center mt-5">
+                                            <p style="font-size:18px; color:#875A7B;"><b>CON</b> nuestro m&oacute;dulo</p>
+                                            <p>Muestra nombre, n&uacute;mero y foto de perf&iacute;l.<br/>
+                                            Ahora s&iacute; podr&aacute;s buscar un chat para seguir escribiendo.</p>
+                                            <img class="img img-responsive shadow mt-2 mb-1" style="max-width: 100%;"
+                                                 src="chat_6.png" alt="CON nuestro m&oacute;dulo"
+                                                 title="CON nuestro m&oacute;dulo">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- + + + + + + + Video + + + + + + + -->
+                    <!--<div class="col-12 text-center mt-4 pt-4">
+                        <h4 class="oe_slogan mb-4" style="color:#875A7B"><b>Video</b></h4>
+                        <div class="row mx-0">
+                            <div class="col-sm-12 text-center mt-2 pb-3">
+                                <h5 class="mt-0  mb-1">- Usar Plantillas -</h5>
+                                <p>Ahora es muy simple !</p>
+                                <div style="max-width: 560px; margin: auto;">
+                                    <a href="https://www.youtube.com/watch?v=e2z94ArqbQM" target="_blank">
+                                        <img class="shadow pb-0"
+                                             src="Portada_450x250.jpg" alt="Odoo WhatsApp Video" title="Odoo WhatsApp Video"
+                                             style="max-width:100%; border: 1px solid darkgray;">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>-->
+
+                    <!-- + + + + + + + Facebook problem + + + + + + + -->
+                    <div class="col-md-12 col-sm-12 text-center mt-4 pt-4">
+                        <h4 class="oe_slogan mt-3 mb-0" style="color:#875A7B"><b>Problemas</b></h4>
+                        <p style="color: #875A7B; font-size: 24px;">al usar META (Facebook)</p>
+                    </div>
+                    <div class="col-md-12 col-sm-12 d-flex justify-content-center">
+                        <ul class="text-left">
+                            <li>Ya no podr&aacute;s tener Whatsapp en el celular o abrir Whatsapp Web.</li>
+                            <li>Debes crear una APP en META, es complicado y te puede costar usd $100.</li>
+                            <li>Debes mantener un sistema de plantillas en META y sincronizar a Odoo (M&aacute;s
+                                complicaciones).<br/>
+                                Te pueden cobrar usd $20 por cada plantilla.
+                            </li>
+                            <li>Debes enviar plantilla para iniciar chat (Costo extra).</li>
+                            <li>Debes enviar plantilla para continuar un chat despu&eacute;s de 24 hrs. (Costo extra).</li>
+                        </ul>
+                    </div>
+
+                    <!-- + + + + + + + FAQ + + + + + + + -->
+                    <div class="col-md-12 col-sm-12 text-center mt-4 pt-4">
+                        <h4 class="oe_slogan mt-0" style="color:#875A7B"><b>FAQ</b></h4>
+                    </div>
+                    <div class="container">
+                        <div id="esaccordion">
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="card-link collapsed" data-toggle="collapse" href="#esfaq1"
+                                       aria-expanded="false">
+                                        <!--<i class="fa fa-angle-double-down" style="font-size:20px;"></i>-->
+                                        <i class="fa fa-plus" style="font-size:20px;"></i>
+                                        <span class="my-1 pr-5 pl-1">
+                                            <b>Cu&aacute;ndo conviene usar META (Facebook)?</b>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div id="esfaq1" class="collapse" data-parent="#esaccordion">
+                                    <div class="card-body ml-4 font-italic" style="font-size:15px;">
+                                        <div>1) Si tu empresa es grande o mediana y tienes los recursos para mantener un
+                                            especialista en el tema.
+                                        </div>
+                                        <div>2) Si tu empresa es peque&ntilde;a y est&aacute;s dispuesto a invertir tiempo en aprender
+                                            por tu cuenta y mantener el &oacute;rden que se requiere.
+                                        </div>
+                                        <div>3) Si necesitas hacer Marketing a n&uacute;meros de Whatsapp que no te han escrito
+                                            antes.
+                                        </div>
+                                        <div>4) Si tu Marketing ser&aacute; intensivo, sobre 2.000 mensajes al d&iacute;a.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="card-link collapsed" data-toggle="collapse" href="#esfaq2"
+                                       aria-expanded="false">
+                                        <!--                            <i class="fa fa-angle-double-down" style="font-size:20px;"></i>-->
+                                        <i class="fa fa-plus" style="font-size:20px;"></i>
+                                        <span class="my-1 pr-5 pl-1">
+                                            <b>Consideraciones para hacer Marketing</b>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div id="esfaq2" class="collapse" data-parent="#esaccordion">
+                                    <div class="card-body ml-4 font-italic" style="font-size:15px;">
+                                        <div>1) Si usas META ser&aacute; seguro, es el negocio de META. En contra, si un n&uacute;mero
+                                            no existe en Whatsapp, es complicado saberlo.
+                                        </div>
+                                        <div>2) Si usas apichat.io, solo se recomienda enviar a n&uacute;meros de Whatsapp con
+                                            los cuales ya conversaste en alg&uacute;n momento.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="card-link collapsed" data-toggle="collapse" href="#esfaq3"
+                                       aria-expanded="false">
+                                        <!--                            <i class="fa fa-angle-double-down" style="font-size:20px;"></i>-->
+                                        <i class="fa fa-plus" style="font-size:20px;"></i>
+                                        <span class="my-1 pr-5 pl-1">
+                                            <b>Puede ser bloqueado mi numero si uso apichta.io?</b>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div id="esfaq3" class="collapse" data-parent="#esaccordion">
+                                    <div class="card-body ml-4 font-italic" style="font-size:15px;">
+                                        <div>Si, es posible, pero seguramente ser&aacute; por no tomar algunas medidas
+                                            m&iacute;nimas.
+                                        </div>
+                                        <div>Recomendaciones:</div>
+                                        <div>1) Es muy seguro si solo respondes a mensajes entrantes, es decir, el
+                                            cliente te escribe la priemra vez.<br/>
+                                            Si ya existe mensaje de entrada y salida en un chat, puedes retomar ese chat
+                                            cuando quieras, pueden pasar d&iacute;as o semanas sin problema.
+                                        </div>
+                                        <div>2) Si vas a crear un nuevo chat, aseg&uacute;rate que el n&uacute;mero existe.<br/>
+                                            Si env&iacute;as muchos mensajes al d&iacute;a a n&uacute;meros que no existen, Whatsapp te puede
+                                            bloquear.
+                                        </div>
+                                        <div>3) Si vas a crear un nuevo chat, aseg&uacute;rate de enviar un mensaje que sea
+                                            bienvenido por tu cliente.<br/>
+                                            Si vas a estar cobrando una deuda es posible que el cliente de marque como
+                                            SPAM y si juntas varios SPAM
+                                            en 1 d&iacute;a es posible que Whatsapp te pueda bloquear.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="card-link collapsed" data-toggle="collapse" href="#esfaq4"
+                                       aria-expanded="false">
+                                        <!--                            <i class="fa fa-angle-double-down" style="font-size:20px;"></i>-->
+                                        <i class="fa fa-plus" style="font-size:20px;"></i>
+                                        <span class="my-1 pr-5 pl-1">
+                                            <b>Consejos para usar un n&uacute;mero nuevo de Whatsapp</b>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div id="esfaq4" class="collapse" data-parent="#esaccordion">
+                                    <div class="card-body ml-4 font-italic" style="font-size:15px;">
+                                        <div class="mb-1">* Si ya llevas unos d&iacute;as haciendo uso normal de tu nuevo
+                                            Whatsapp, no es necesario que tomes en cuenta estos consejos.
+                                        </div>
+                                        <div>1) Si el cliente te escribe primero y solo vas a responder, puedes estar
+                                            muy tranquilo.
+                                        </div>
+                                        <div>2) Si le vas a escribir a un cliente por primera vez con tu nuevo n&uacute;mero,
+                                            Whatsapp espera que lo hagas a Contactos que tienes guardados en tu celular.<br/>
+                                            Entonces, los primeros d&iacute;as, iniciar chat solo a clientes que tengas
+                                            guardados en el celular.
+                                        </div>
+                                        <div>3) Si no seguiste los consejos y Whatsapp te ha bloqueado, sigue los pasos
+                                            del punto "Que hacer si Whatsapp me bloquea.".
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="card-link collapsed" data-toggle="collapse" href="#esfaq5"
+                                       aria-expanded="false">
+                                        <!--                            <i class="fa fa-angle-double-down" style="font-size:20px;"></i>-->
+                                        <i class="fa fa-plus" style="font-size:20px;"></i>
+                                        <span class="my-1 pr-5 pl-1">
+                                            <b>Qu&eacute; hacer si Whatsapp me bloquea</b>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div id="esfaq5" class="collapse" data-parent="#esaccordion">
+                                    <div class="card-body ml-4 font-italic" style="font-size:15px;">
+                                        <div>1) Si Whatsapp te ha bloqueado, puedes solicitar que te active tu cuenta.<br/>
+                                            No digas que usas una aplicaci&oacute;n o apichat.io, basta con que digas que no
+                                            haces Marketing.
+                                        </div>
+                                        <div>2) Si estabas haciendo Marketing, significa que no estabas siguiendo las
+                                            recomendaciones m&iacute;nimas.<br/>
+                                            En este caso es mejor que uses META (Facebook).
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-header">
+                                    <a class="card-link collapsed" data-toggle="collapse" href="#esfaq6"
+                                       aria-expanded="false">
+                                        <i class="fa fa-plus" style="font-size:20px;"></i>
+                                        <span class="my-1 pr-5 pl-1">
+                                            <b>Es compatible con Chatroom?</b>
+                                        </span>
+                                    </a>
+                                </div>
+                                <div id="esfaq6" class="collapse" data-parent="#esaccordion">
+                                    <div class="card-body ml-4 font-italic" style="font-size:15px;">
+                                        <div>Puedes usar en forma paralela.</div>
+                                        <div>No afecta a Chatroom y tampoco agrega caracter&iacute;sticas extra a Chatroom.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- + + + + + + + License + + + + + + +
+                    <div class="col-md-12 col-sm-12 mt-1 mb-0" style="padding:8px; font-size:18px; line-height: initial;">
+                        <div class="container alert mb-0" style="padding: 16px; display: flow-root; border: 1px solid #808080;">
+                            <div class="pull-left">
+                                <b>License: OPL-1</b> (Odoo Proprietary License v1.0)<br/><br/>
+                                <span style="font-size: 90%;">By using or downloading this module, you agree not to make modifications that
+                                    affect sending messages through www.apichat.io or avoiding contract
+                                    a Plan with Apichat.
+                                </span>
+                            </div>
+                        </div>
+                    </div>-->
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

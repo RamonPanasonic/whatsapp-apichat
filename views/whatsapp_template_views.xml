@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <record id="whatsapp_template_view_form" model="ir.ui.view">
+        <field name="name">whatsapp.template.apichat</field>
+        <field name="model">whatsapp.template</field>
+        <field name="inherit_id" ref="whatsapp.whatsapp_template_view_form" />
+        <field name="arch" type="xml">
+            <field name="wa_account_id" position="after">
+                <field name="is_open_message" widget="boolean_toggle"
+                    readonly="status != 'draft'" />
+            </field>
+            <xpath expr="//page[@name='Body']/.." position="attributes">
+                <attribute name="invisible">is_open_message == True</attribute>
+            </xpath>
+            <xpath expr="//field[@name='body']" position="attributes">
+                <attribute name="readonly">status != 'draft'</attribute>
+                <attribute name="required">is_open_message != True</attribute>
+            </xpath>
+            <xpath expr="//field[@name='template_name']/.." position="attributes">
+                <attribute name="invisible">is_open_message == True</attribute>
+            </xpath>
+        </field>
+    </record>
+</odoo>

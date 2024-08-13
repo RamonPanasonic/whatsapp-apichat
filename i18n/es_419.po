@@ -1,0 +1,346 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* whatsapp_apichat
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 17.0+e\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-12-11 20:18+0000\n"
+"PO-Revision-Date: 2023-12-11 20:18+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: whatsapp_apichat
+#. odoo-python
+#: code:addons/whatsapp_apichat/models/whatsapp_account.py:0
+#, python-format
+msgid "%s connected."
+msgstr "%s conectado."
+
+#. module: whatsapp_apichat
+#: model:ir.model.fields,field_description:whatsapp_apichat.field_whatsapp_account_scan_qr__account_id
+#: model:ir.model.fields,field_description:whatsapp_apichat.field_whatsapp_composer__wa_account_id
+msgid "Account"
+msgstr "Cuenta"
+
+#. module: whatsapp_apichat
+#: model:ir.model.fields,field_description:whatsapp_apichat.field_whatsapp_account__account_type
+msgid "Account Type"
+msgstr "Tipo de Cuenta"
+
+#. module: whatsapp_apichat
+#. odoo-python
+#: code:addons/whatsapp_apichat/models/whatsapp_account.py:0
+#, python-format
+msgid "All good!"
+msgstr "Todo bien!"
+
+#. module: whatsapp_apichat
+#: model:ir.model.fields.selection,name:whatsapp_apichat.selection__whatsapp_account__account_type__apichat
+msgid "Apichat"
+msgstr ""
+
+#. module: whatsapp_apichat
+#: model:ir.model.fields,field_description:whatsapp_apichat.field_whatsapp_composer__binary_attachment
+msgid "Attachment File"
+msgstr "Archivo Adjunto"
+
+#. module: whatsapp_apichat
+#: model:ir.model.fields,field_description:whatsapp_apichat.field_whatsapp_composer__binary_filename
+msgid "Attachment Filename"
+msgstr "Nombre del Adjunto"
+
+#. module: whatsapp_apichat
+#. odoo-python
+#: code:addons/whatsapp_apichat/wizard/whatsapp_composer.py:0
+#, python-format
+msgid "Audio message cannot have text."
+msgstr "Mensajes de audio no pueden tener texto."
+
+#. module: whatsapp_apichat
+#. odoo-python
+#: code:addons/whatsapp_apichat/models/whatsapp_template.py:0
+#, python-format
+msgid "Buttons are not allowed in apichat."
+msgstr "Botones no están permitidos en apichat."
+
+#. module: whatsapp_apichat
+#. odoo-python
+#: code:addons/whatsapp_apichat/models/whatsapp_account.py:0
+#, python-format
+msgid "Can not connected, contact to apichat."
+msgstr "No se puede conectar, contactar a apichat."
+
+#. module: whatsapp_apichat
+#: model_terms:ir.ui.view,arch_db:whatsapp_apichat.view_pop_message_form
+#: model_terms:ir.ui.view,arch_db:whatsapp_apichat.view_scan_qr_form
+msgid "Close"
+msgstr "Cerrar"
+
+#. module: whatsapp_apichat
+#: model_terms:ir.ui.view,arch_db:whatsapp_apichat.whatsapp_account_view_form
+msgid "Close Whatsapp Web Session"
+msgstr "Cerrar Sesión de Whatsapp Web"
+
+#. module: whatsapp_apichat
+#. odoo-javascript
+#: code:addons/whatsapp_apichat/static/src/views/form/whatsapp_account_scan_qr_controller.js:0
+#: model_terms:ir.ui.view,arch_db:whatsapp_apichat.whatsapp_account_view_form
+#, python-format
+msgid "Connected"
+msgstr "Conectado"
+
+#. module: whatsapp_apichat
+#: model:ir.model.fields,field_description:whatsapp_apichat.field_acrux_apichat_pop_message__create_uid
+#: model:ir.model.fields,field_description:whatsapp_apichat.field_whatsapp_account_scan_qr__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: whatsapp_apichat
+#: model:ir.model.fields,field_description:whatsapp_apichat.field_acrux_apichat_pop_message__create_date
+#: model:ir.model.fields,field_description:whatsapp_apichat.field_whatsapp_account_scan_qr__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: whatsapp_apichat
+#: model:ir.model.fields.selection,name:whatsapp_apichat.selection__whatsapp_message__state__deleted
+msgid "Deleted"
+msgstr "Eliminado"
+
+#. module: whatsapp_apichat
+#: model:ir.model.fields,field_description:whatsapp_apichat.field_acrux_apichat_pop_message__info
+msgid "Detail"
+msgstr "Detalle"
+
+#. module: whatsapp_apichat
+#: model_terms:ir.ui.view,arch_db:whatsapp_apichat.whatsapp_account_view_form
+msgid "Disconnected"
+msgstr "Desconectado"
+
+#. module: whatsapp_apichat
+#: model:ir.model,name:whatsapp_apichat.model_discuss_channel
+msgid "Discussion Channel"
+msgstr "Canal de conversaciones"
+
+#. module: whatsapp_apichat
+#: model:ir.model.fields,field_description:whatsapp_apichat.field_acrux_apichat_pop_message__display_name
+#: model:ir.model.fields,field_description:whatsapp_apichat.field_whatsapp_account_scan_qr__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: whatsapp_apichat
+#: model:ir.model.fields,field_description:whatsapp_apichat.field_acrux_apichat_pop_message__id
+#: model:ir.model.fields,field_description:whatsapp_apichat.field_whatsapp_account_scan_qr__id
+msgid "ID"
+msgstr ""
+
+#. module: whatsapp_apichat
+#: model:ir.model.fields,field_description:whatsapp_apichat.field_whatsapp_composer__is_open_message
+#: model:ir.model.fields,field_description:whatsapp_apichat.field_whatsapp_template__is_open_message
+msgid "Is Open Message"
+msgstr "Es Mensaje Libre"
+
+#. module: whatsapp_apichat
+#: model:ir.model.fields,field_description:whatsapp_apichat.field_acrux_apichat_pop_message__write_uid
+#: model:ir.model.fields,field_description:whatsapp_apichat.field_whatsapp_account_scan_qr__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: whatsapp_apichat
+#: model:ir.model.fields,field_description:whatsapp_apichat.field_acrux_apichat_pop_message__write_date
+#: model:ir.model.fields,field_description:whatsapp_apichat.field_whatsapp_account_scan_qr__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: whatsapp_apichat
+#. odoo-python
+#: code:addons/whatsapp_apichat/wizard/custom_message.py:0
+#: model:ir.model.fields,field_description:whatsapp_apichat.field_acrux_apichat_pop_message__name
+#: model:ir.model.fields,field_description:whatsapp_apichat.field_whatsapp_composer__open_message_text
+#: model_terms:ir.ui.view,arch_db:whatsapp_apichat.view_pop_message_form
+#, python-format
+msgid "Message"
+msgstr "Mensaje"
+
+#. module: whatsapp_apichat
+#. odoo-python
+#: code:addons/whatsapp_apichat/wizard/whatsapp_composer.py:0
+#, python-format
+msgid "Message is empty."
+msgstr "Mensaje está vácio."
+
+#. module: whatsapp_apichat
+#: model:ir.model.fields.selection,name:whatsapp_apichat.selection__whatsapp_account__account_type__meta
+msgid "Meta"
+msgstr ""
+
+#. module: whatsapp_apichat
+#. odoo-python
+#: code:addons/whatsapp_apichat/wizard/whatsapp_composer.py:0
+#, python-format
+msgid "No template available for this model and account"
+msgstr "No hay plantilla disponible para este modelo y cuenta"
+
+#. module: whatsapp_apichat
+#. odoo-javascript
+#: code:addons/whatsapp_apichat/static/src/views/form/whatsapp_account_scan_qr_controller.js:0
+#, python-format
+msgid "Not Connected"
+msgstr "No Conectado"
+
+#. module: whatsapp_apichat
+#. odoo-python
+#: code:addons/whatsapp_apichat/models/whatsapp_template.py:0
+#: code:addons/whatsapp_apichat/models/whatsapp_template.py:0
+#, python-format
+msgid "Only Apichat can be open message."
+msgstr "Sólo Apichat puede ser mensaje libre."
+
+#. module: whatsapp_apichat
+#: model:ir.model.fields,field_description:whatsapp_apichat.field_whatsapp_account__phone_connected
+msgid "Phone Connected"
+msgstr "Teléfono Conectado"
+
+#. module: whatsapp_apichat
+#. odoo-python
+#: code:addons/whatsapp_apichat/tools/whatsapp_api.py:0
+#, python-format
+msgid "Phone number Id is wrong."
+msgstr ""
+
+#. module: whatsapp_apichat
+#: model:ir.model.fields.selection,name:whatsapp_apichat.selection__whatsapp_message__state__played
+msgid "Played"
+msgstr "Escuchado"
+
+#. module: whatsapp_apichat
+#. odoo-javascript
+#: code:addons/whatsapp_apichat/static/src/views/form/whatsapp_account_scan_qr_controller.js:0
+#, python-format
+msgid "Please try again or check apichat."
+msgstr "Inténtelo de nuevo o contacte apichat."
+
+#. module: whatsapp_apichat
+#: model:ir.model,name:whatsapp_apichat.model_acrux_apichat_pop_message
+msgid "Pop Message"
+msgstr ""
+
+#. module: whatsapp_apichat
+#: model:ir.model.fields,field_description:whatsapp_apichat.field_whatsapp_account_scan_qr__qr_code_img
+msgid "Qr code"
+msgstr "Código QR"
+
+#. module: whatsapp_apichat
+#. odoo-python
+#: code:addons/whatsapp_apichat/models/whatsapp_account.py:0
+#: model:ir.model,name:whatsapp_apichat.model_whatsapp_account_scan_qr
+#, python-format
+msgid "Scan WhatsApp QR Code"
+msgstr "Escanee el Código QR de Whatsapp"
+
+#. module: whatsapp_apichat
+#: model:ir.model,name:whatsapp_apichat.model_whatsapp_composer
+msgid "Send WhatsApp Wizard"
+msgstr "Asistente de envío de WhatsApp"
+
+#. module: whatsapp_apichat
+#. odoo-python
+#: code:addons/whatsapp_apichat/models/whatsapp_message.py:0
+#, python-format
+msgid "Sent a document."
+msgstr "Envió un documento."
+
+#. module: whatsapp_apichat
+#. odoo-python
+#: code:addons/whatsapp_apichat/models/whatsapp_message.py:0
+#, python-format
+msgid "Sent a video."
+msgstr "Envió un vídeo."
+
+#. module: whatsapp_apichat
+#. odoo-python
+#: code:addons/whatsapp_apichat/models/whatsapp_message.py:0
+#, python-format
+msgid "Sent an attachment."
+msgstr "Envió un adjunto."
+
+#. module: whatsapp_apichat
+#. odoo-python
+#: code:addons/whatsapp_apichat/models/whatsapp_message.py:0
+#, python-format
+msgid "Sent an audio."
+msgstr "Envió un audio."
+
+#. module: whatsapp_apichat
+#. odoo-python
+#: code:addons/whatsapp_apichat/models/whatsapp_message.py:0
+#, python-format
+msgid "Sent an image."
+msgstr "Envió una imagen."
+
+#. module: whatsapp_apichat
+#. odoo-python
+#: code:addons/whatsapp_apichat/models/whatsapp_message.py:0
+#, python-format
+msgid "Sent multiple attachments."
+msgstr "Envió multiples adjuntos."
+
+#. module: whatsapp_apichat
+#. odoo-python
+#: code:addons/whatsapp_apichat/models/whatsapp_account.py:0
+#, python-format
+msgid "Session Closed"
+msgstr "Sesión Cerrada"
+
+#. module: whatsapp_apichat
+#: model:ir.model.fields,field_description:whatsapp_apichat.field_whatsapp_message__state
+msgid "State"
+msgstr "Estado"
+
+#. module: whatsapp_apichat
+#: model:ir.model,name:whatsapp_apichat.model_whatsapp_account
+msgid "WhatsApp Business Account"
+msgstr "Cuenta de empresa de WhatsApp"
+
+#. module: whatsapp_apichat
+#: model:ir.model,name:whatsapp_apichat.model_whatsapp_message
+msgid "WhatsApp Messages"
+msgstr "Mensajes de WhatsApp"
+
+#. module: whatsapp_apichat
+#: model:ir.model,name:whatsapp_apichat.model_whatsapp_template
+msgid "WhatsApp Template"
+msgstr "Plantilla de WhatsApp"
+
+#. module: whatsapp_apichat
+#: model_terms:ir.ui.view,arch_db:whatsapp_apichat.view_scan_qr_form
+msgid ""
+"You need to scan the QR code from the device on which WhatsApp is "
+"registered."
+msgstr ""
+"Debes escanear el código QR del dispositivo en el que está registrado "
+"WhatsApp."
+
+#. module: whatsapp_apichat
+#. odoo-python
+#: code:addons/whatsapp_apichat/models/whatsapp_account.py:0
+#, python-format
+msgid "Your Whatsapp session was closed."
+msgstr "Tu sesión de Whatsapp fue cerrada."
+
+#. module: whatsapp_apichat
+#. odoo-javascript
+#: code:addons/whatsapp_apichat/static/src/views/form/whatsapp_account_scan_qr_controller.js:0
+#, python-format
+msgid "Your phone is connected."
+msgstr "Teléfono conectado"
+
+#. module: whatsapp_apichat
+#: model:ir.model,name:whatsapp_apichat.model_ir_websocket
+msgid "websocket message handling"
+msgstr "gestión de mensajes de WebSocket"
